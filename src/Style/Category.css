@@ -1,0 +1,39 @@
+.category {
+  margin-bottom: 8px;
+  background-color: hsl(0, 0%, 93%); 
+  padding: 5px; 
+  border-radius: 14px; 
+}
+.category h2 {
+  margin-bottom: 5px;
+  margin-left: 5px;
+}
+.widget-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.widget {
+  flex: 0 0 calc(33.33% - 10px); 
+  box-sizing: border-box;
+  background-color:white; 
+  border-radius: 8px;
+  padding: 10x; 
+  margin-left: 5px;
+}
+
+.add-widget .add-widget-button {
+  width: 35%;
+  height: 40px; 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.2em;
+  background-color: #f0f0f0;
+  border: 2px dashed #bbb;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-top: 10px;
+  border: 1px solid black;
+}

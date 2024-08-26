@@ -1,0 +1,98 @@
+{
+    "categories": [
+        {
+            "id": 1,
+            "name": "CSPM Executive Dashboard",
+            "widgets": [
+                {
+                    "id": 1,
+                    "name": "Cloud Accounts",
+                    "type": "progress",
+                    "data": {
+                        "connected": 5,
+                        "notConnected": 5
+                    }
+                },
+                {
+                    "id": 2,
+                    "name": "Risk Assessment",
+                    "type": "risk",
+                    "data": {
+                        "passed": 7253,
+                        "failed": 1689,
+                        "warning": 68,
+                        "notAvailable": 36
+                    }
+                },
+                {
+                    "id": 3,
+                    "name": "Add Widget",
+                    "type": "addWidget"
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "name": "CWPP Dashboard",
+            "widgets": [
+                {
+                    "id": 4,
+                    "name": "Top 5 Namespace Specific Alerts",
+                    "type": "default"
+                },
+                {
+                    "id": 5,
+                    "name": "Workload Alerts",
+                    "type": "default"
+                },
+                {
+                    "id": 6,
+                    "name": "Add Widget",
+                    "type": "addWidget"
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "name": "Registry Scans",
+            "widgets": [
+                {
+                    "id": 7,
+                    "name": "Widget 1",
+                    "type": "default"
+                },
+                {
+                    "id": 8,
+                    "name": "Widget 2",
+                    "type": "default"
+                },
+                {
+                    "id": 9,
+                    "name": "Add Widget",
+                    "type": "addWidget"
+                }
+            ]
+        },
+        {
+            "id": 4,
+            "name": "Image",
+            "widgets": [
+                {
+                    "id": 10,
+                    "name": "Widget 1",
+                    "type": "default"
+                },
+                {
+                    "id": 11,
+                    "name": "Widget 2",
+                    "type": "default"
+                },
+                {
+                    "id": 12,
+                    "name": "Add Widget",
+                    "type": "addWidget"
+                }
+            ]
+        }
+    ]
+}

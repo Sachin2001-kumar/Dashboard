@@ -1,0 +1,72 @@
+.add-widget-sidebar {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 700px;
+    height: 100%;
+    background-color: white;
+    box-shadow: -2px 0 5px rgba(0, 0, 0, 0.3);
+    padding: 20px;
+    box-sizing: border-box;
+    z-index: 1000;
+    transform: translateX(0);
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .add-widget-sidebar h2 {
+    margin-top: 0;
+  }
+  
+  .add-widget-sidebar label {
+    display: block;
+    margin-bottom: 15px;
+  }
+  
+  .add-widget-sidebar input,
+  .add-widget-sidebar select,
+  .add-widget-sidebar textarea {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+  }
+  
+  .button-group {
+    display: flex;
+    justify-content: flex-end;
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    width: calc(100% - 40px);
+  }
+  
+  .cancel-button {
+    padding: 10px 20px;
+    background-color: #ff4d4d;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 10px;
+  }
+  
+  .cancel-button:hover {
+    background-color: #cc0000;
+  }
+  
+  .confirm-button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .confirm-button:hover {
+    background-color: #0056b3;
+  }
+  
