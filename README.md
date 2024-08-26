@@ -13,7 +13,7 @@ Follow these steps to set up and run the application locally:-
 <br/>
 1. Clone the Repository
 git clone https://github.com/yourusername/dashboard-app.git
-<br/>
+
 Navigate into the project directory:
 <br/>
 cd dashboard-app
